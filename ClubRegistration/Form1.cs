@@ -12,6 +12,11 @@ namespace ClubRegistration
 {
     public partial class FrmClubRegistration : Form
     {
+        private ClubRegistrationQuery clubRegistrationQuery;
+        private int ID, age, count;
+        private string FirstName, MiddleName, LastName, Gender, Program;
+        private long StudentID;
+
         public FrmClubRegistration()
         {
             InitializeComponent();
