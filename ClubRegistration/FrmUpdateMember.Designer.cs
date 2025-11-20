@@ -40,7 +40,7 @@
             this.LastNameTxt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.ProgramCombo = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.StudentIDTxt = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -140,7 +140,7 @@
             // LastNameTxt
             // 
             this.LastNameTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LastNameTxt.Location = new System.Drawing.Point(363, 124);
+            this.LastNameTxt.Location = new System.Drawing.Point(363, 113);
             this.LastNameTxt.Name = "LastNameTxt";
             this.LastNameTxt.Size = new System.Drawing.Size(324, 29);
             this.LastNameTxt.TabIndex = 23;
@@ -159,20 +159,20 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(358, 91);
+            this.label3.Location = new System.Drawing.Point(358, 80);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(118, 30);
             this.label3.TabIndex = 21;
             this.label3.Text = "Last name:";
             // 
-            // comboBox1
+            // ProgramCombo
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(363, 43);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(324, 29);
-            this.comboBox1.TabIndex = 20;
+            this.ProgramCombo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProgramCombo.FormattingEnabled = true;
+            this.ProgramCombo.Location = new System.Drawing.Point(363, 43);
+            this.ProgramCombo.Name = "ProgramCombo";
+            this.ProgramCombo.Size = new System.Drawing.Size(324, 29);
+            this.ProgramCombo.TabIndex = 20;
             // 
             // label2
             // 
@@ -220,7 +220,7 @@
             this.Controls.Add(this.LastNameTxt);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.ProgramCombo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.StudentIDTxt);
             this.Controls.Add(this.label1);
@@ -245,7 +245,7 @@
         private System.Windows.Forms.TextBox LastNameTxt;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox ProgramCombo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox StudentIDTxt;
         private System.Windows.Forms.Label label1;

@@ -16,5 +16,12 @@ namespace ClubRegistration
         {
             InitializeComponent();
         }
+
+        private void UpdateButton_Click(object sender, EventArgs e)
+        {
+            FrmUpdateMember updateMember = new FrmUpdateMember();
+
+            updateMember.ShowDialog();
+        }
     }
 }

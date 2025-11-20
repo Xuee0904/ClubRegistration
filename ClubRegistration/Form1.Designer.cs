@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.StudentIDTxt = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.ProgramCombo = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.LastNameTxt = new System.Windows.Forms.TextBox();
@@ -79,14 +79,14 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Program:";
             // 
-            // comboBox1
+            // ProgramCombo
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(359, 42);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(324, 29);
-            this.comboBox1.TabIndex = 3;
+            this.ProgramCombo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProgramCombo.FormattingEnabled = true;
+            this.ProgramCombo.Location = new System.Drawing.Point(359, 42);
+            this.ProgramCombo.Name = "ProgramCombo";
+            this.ProgramCombo.Size = new System.Drawing.Size(324, 29);
+            this.ProgramCombo.TabIndex = 3;
             // 
             // label3
             // 
@@ -219,6 +219,7 @@
             this.UpdateButton.TabIndex = 16;
             this.UpdateButton.Text = "UPDATE";
             this.UpdateButton.UseVisualStyleBackColor = false;
+            this.UpdateButton.Click += new System.EventHandler(this.UpdateButton_Click);
             // 
             // label8
             // 
@@ -273,7 +274,7 @@
             this.Controls.Add(this.LastNameTxt);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.ProgramCombo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.StudentIDTxt);
             this.Controls.Add(this.label1);
@@ -290,7 +291,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox StudentIDTxt;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox ProgramCombo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox LastNameTxt;
