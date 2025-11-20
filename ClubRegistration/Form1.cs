@@ -28,5 +28,12 @@ namespace ClubRegistration
 
             updateMember.ShowDialog();
         }
+
+        public void RefreshListOfClubMembers()
+        {
+            clubRegistrationQuery.DisplayList();
+            dataGridView1.DataSource = clubRegistrationQuery.bindingSource;
+        }
+
     }
 }
