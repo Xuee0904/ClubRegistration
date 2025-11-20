@@ -23,5 +23,17 @@ namespace ClubRegistration
 
         public string _FirstName, _MiddleName, _LastName, _Gender, _Program;
         public int _Age;
+
+        public ClubRegistrationQuery()
+        {
+            connectionString = @"Data Source=LOCALHOST\SQLEXPRESS; Initial Catalog=ClubRegistration; Integrated Security=True;";
+
+            sqlConnect = new SqlConnection(connectionString);
+
+            dataTable = new DataTable();
+            bindingSource = new BindingSource();
+        }
+
+
     }
 }
