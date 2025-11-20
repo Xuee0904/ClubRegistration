@@ -7,14 +7,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ClubRegistration
 {
     public partial class FrmClubRegistration : Form
     {
-        private ClubRegistrationQuery clubRegistrationQuery;
-        private int ID, age, count;
-        private string FirstName, MiddleName, LastName, Gender, Program;
+        private ClubRegistrationQuery clubRegistrationQuery = new ClubRegistrationQuery();
+        private int ID, Age, count;
+        private string FirstName, MiddleName, LastName, Program;
+
+        
+
+        private void RegisterButton_Click(object sender, EventArgs e)
+        {
+            string Gender = MaleRadioBtn.Checked ? "Male" : "Female";
+
+            clubRegistrationQuery.RegisterStudent(count, Convert.ToInt64(StudentIDTxt.Text), FirstNameTxt.Text, MiddleNameTxt.Text, LastNameTxt.Text, Convert.ToInt32(AgeTxt.Text), Gender, ProgramCombo.Text);
+
+            RefreshListOfClubMembers();
+        }
+
+        private void RefreshButton_Click(object sender, EventArgs e)
+        {
+            RefreshListOfClubMembers();
+        }
 
         private void FrmClubRegistration_Load(object sender, EventArgs e)
         {

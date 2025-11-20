@@ -83,6 +83,13 @@
             // 
             this.ProgramCombo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProgramCombo.FormattingEnabled = true;
+            this.ProgramCombo.Items.AddRange(new object[] {
+            "BSBA",
+            "BSA",
+            "BSHM",
+            "BSIT",
+            "BSN",
+            "BSTM"});
             this.ProgramCombo.Location = new System.Drawing.Point(359, 42);
             this.ProgramCombo.Name = "ProgramCombo";
             this.ProgramCombo.Size = new System.Drawing.Size(324, 29);
@@ -206,6 +213,7 @@
             this.RegisterButton.TabIndex = 15;
             this.RegisterButton.Text = "REGISTER";
             this.RegisterButton.UseVisualStyleBackColor = false;
+            this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
             // UpdateButton
             // 
@@ -251,6 +259,7 @@
             this.RefreshButton.TabIndex = 19;
             this.RefreshButton.Text = "REFRESH";
             this.RefreshButton.UseVisualStyleBackColor = false;
+            this.RefreshButton.Click += new System.EventHandler(this.RefreshButton_Click);
             // 
             // FrmClubRegistration
             // 
