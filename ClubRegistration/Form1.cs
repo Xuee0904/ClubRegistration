@@ -16,16 +16,22 @@ namespace ClubRegistration
         private ClubRegistrationQuery clubRegistrationQuery = new ClubRegistrationQuery();
         private int ID, Age, count;
         private string FirstName, MiddleName, LastName, Program;
+        private long StudentID;
 
-        
+        public FrmClubRegistration()
+        {
+            InitializeComponent();
+        }
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
             string Gender = MaleRadioBtn.Checked ? "Male" : "Female";
 
-            clubRegistrationQuery.RegisterStudent(count, Convert.ToInt64(StudentIDTxt.Text), FirstNameTxt.Text, MiddleNameTxt.Text, LastNameTxt.Text, Convert.ToInt32(AgeTxt.Text), Gender, ProgramCombo.Text);
+            clubRegistrationQuery.RegisterStudent(count, Convert.ToInt64(StudentIDTxt.Text), FirstNameTxt.Text, MiddleNameTxt.Text, LastNameTxt.Text,
+                                                 Convert.ToInt32(AgeTxt.Text), Gender, ProgramCombo.Text);
 
             RefreshListOfClubMembers();
+            ClearFields();
         }
 
         private void RefreshButton_Click(object sender, EventArgs e)
@@ -38,12 +44,6 @@ namespace ClubRegistration
             RefreshListOfClubMembers();
         }
 
-        private long StudentID;
-
-        public FrmClubRegistration()
-        {
-            InitializeComponent();
-        }
 
         private void UpdateButton_Click(object sender, EventArgs e)
         {
@@ -62,6 +62,18 @@ namespace ClubRegistration
         {
             count++;
             return count;
+        }
+
+        public void ClearFields()
+        {
+            StudentIDTxt.Clear();
+            FirstNameTxt.Clear();
+            MiddleNameTxt.Clear();
+            LastNameTxt.Clear();
+            AgeTxt.Clear();
+            ProgramCombo.SelectedIndex = -1;
+            MaleRadioBtn.Checked = false;
+            FemaleRadioBtn.Checked = false;
         }
     }
 }

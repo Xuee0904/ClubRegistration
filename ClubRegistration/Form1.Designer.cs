@@ -66,14 +66,14 @@
             this.StudentIDTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StudentIDTxt.Location = new System.Drawing.Point(17, 42);
             this.StudentIDTxt.Name = "StudentIDTxt";
-            this.StudentIDTxt.Size = new System.Drawing.Size(324, 29);
+            this.StudentIDTxt.Size = new System.Drawing.Size(365, 29);
             this.StudentIDTxt.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(354, 9);
+            this.label2.Location = new System.Drawing.Point(385, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 30);
             this.label2.TabIndex = 2;
@@ -90,16 +90,16 @@
             "BSIT",
             "BSN",
             "BSTM"});
-            this.ProgramCombo.Location = new System.Drawing.Point(359, 42);
+            this.ProgramCombo.Location = new System.Drawing.Point(390, 42);
             this.ProgramCombo.Name = "ProgramCombo";
-            this.ProgramCombo.Size = new System.Drawing.Size(324, 29);
+            this.ProgramCombo.Size = new System.Drawing.Size(365, 29);
             this.ProgramCombo.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(354, 79);
+            this.label3.Location = new System.Drawing.Point(385, 79);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(118, 30);
             this.label3.TabIndex = 4;
@@ -118,9 +118,9 @@
             // LastNameTxt
             // 
             this.LastNameTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LastNameTxt.Location = new System.Drawing.Point(359, 112);
+            this.LastNameTxt.Location = new System.Drawing.Point(390, 112);
             this.LastNameTxt.Name = "LastNameTxt";
-            this.LastNameTxt.Size = new System.Drawing.Size(324, 29);
+            this.LastNameTxt.Size = new System.Drawing.Size(365, 29);
             this.LastNameTxt.TabIndex = 6;
             // 
             // label5
@@ -138,14 +138,14 @@
             this.FirstNameTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FirstNameTxt.Location = new System.Drawing.Point(17, 112);
             this.FirstNameTxt.Name = "FirstNameTxt";
-            this.FirstNameTxt.Size = new System.Drawing.Size(324, 29);
+            this.FirstNameTxt.Size = new System.Drawing.Size(365, 29);
             this.FirstNameTxt.TabIndex = 7;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(354, 155);
+            this.label6.Location = new System.Drawing.Point(385, 155);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 30);
             this.label6.TabIndex = 10;
@@ -156,15 +156,15 @@
             this.MiddleNameTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MiddleNameTxt.Location = new System.Drawing.Point(17, 188);
             this.MiddleNameTxt.Name = "MiddleNameTxt";
-            this.MiddleNameTxt.Size = new System.Drawing.Size(324, 29);
+            this.MiddleNameTxt.Size = new System.Drawing.Size(365, 29);
             this.MiddleNameTxt.TabIndex = 9;
             // 
             // AgeTxt
             // 
             this.AgeTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AgeTxt.Location = new System.Drawing.Point(359, 188);
+            this.AgeTxt.Location = new System.Drawing.Point(390, 188);
             this.AgeTxt.Name = "AgeTxt";
-            this.AgeTxt.Size = new System.Drawing.Size(324, 29);
+            this.AgeTxt.Size = new System.Drawing.Size(365, 29);
             this.AgeTxt.TabIndex = 11;
             // 
             // label7
@@ -207,7 +207,7 @@
             this.RegisterButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RegisterButton.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegisterButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.RegisterButton.Location = new System.Drawing.Point(522, 304);
+            this.RegisterButton.Location = new System.Drawing.Point(594, 300);
             this.RegisterButton.Name = "RegisterButton";
             this.RegisterButton.Size = new System.Drawing.Size(161, 55);
             this.RegisterButton.TabIndex = 15;
@@ -221,7 +221,7 @@
             this.UpdateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UpdateButton.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UpdateButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.UpdateButton.Location = new System.Drawing.Point(359, 304);
+            this.UpdateButton.Location = new System.Drawing.Point(431, 300);
             this.UpdateButton.Name = "UpdateButton";
             this.UpdateButton.Size = new System.Drawing.Size(161, 55);
             this.UpdateButton.TabIndex = 16;
@@ -244,7 +244,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 405);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(671, 203);
+            this.dataGridView1.Size = new System.Drawing.Size(743, 200);
             this.dataGridView1.TabIndex = 18;
             // 
             // RefreshButton
@@ -253,7 +253,7 @@
             this.RefreshButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RefreshButton.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RefreshButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.RefreshButton.Location = new System.Drawing.Point(522, 614);
+            this.RefreshButton.Location = new System.Drawing.Point(594, 614);
             this.RefreshButton.Name = "RefreshButton";
             this.RefreshButton.Size = new System.Drawing.Size(161, 55);
             this.RefreshButton.TabIndex = 19;
@@ -266,7 +266,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.ClientSize = new System.Drawing.Size(704, 681);
+            this.ClientSize = new System.Drawing.Size(786, 681);
             this.Controls.Add(this.RefreshButton);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label8);
