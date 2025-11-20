@@ -15,6 +15,12 @@ namespace ClubRegistration
         private ClubRegistrationQuery clubRegistrationQuery;
         private int ID, age, count;
         private string FirstName, MiddleName, LastName, Gender, Program;
+
+        private void FrmClubRegistration_Load(object sender, EventArgs e)
+        {
+            RefreshListOfClubMembers();
+        }
+
         private long StudentID;
 
         public FrmClubRegistration()
@@ -35,5 +41,10 @@ namespace ClubRegistration
             dataGridView1.DataSource = clubRegistrationQuery.bindingSource;
         }
 
+        public int RegistrationID()
+        {
+            count++;
+            return count;
+        }
     }
 }
